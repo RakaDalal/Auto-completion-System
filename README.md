@@ -21,6 +21,7 @@ Download the entire folder and run,
 
 Sample tests:
 1. curl http://localhost:5000/autocomplete?q=What+is+y
-! (https://github.com/RakaDalal/Auto-completion-System/blob/master/test1.png)
+
+![Image of sample test 1](https://github.com/RakaDalal/Auto-completion-System/blob/master/test1.png)
 2. curl http://localhost:5000/autocomplete?q=how+ca
 3. curl http://localhost:5000/autocomplete?q=when+w
