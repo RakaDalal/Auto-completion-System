@@ -40,6 +40,9 @@ There were two most important fields: text and IsFromCustomer(True if the text i
 A sample conversation:
 
 Hi, I have ordered a dress last week but I still haven't received it.
+
 Hello, can you please tell me your order number?
+
 My order number is XXXXXXX.
+
 Thanks. What is your last name?
