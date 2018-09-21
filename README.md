@@ -1,9 +1,6 @@
 # Auto-completion-System
 
-The project involves building an auto-completion system from sample conversations between customers and customer service representatives. The main aim is to speed up the customer service
-representatives' responses by suggesting sentence completions. I have used a trigram Katz’s back-off model for this. I have splitted the data into training set (80%) and development set (20%) and used the
-development set to tune the parameters. I have used the optimize function from scipy for that. After training, I have saved the model on disk as a pickle file(model.pklz). During testing, the model is simply
-loaded from disk to run the predictions.
+The project involves building an auto-completion system from sample conversations between customers and customer service representatives. The main aim is to speed up the customer service representatives' responses by suggesting sentence completions. I have used a trigram Katz’s back-off model for training. I have split the data into training set (80%) and development set (20%) and used the development set to tune the discount parameters for which I have used the minimize function from scipy.optimize. After training, I have saved the model on disk as a pickle file(model.pklz). During testing, the model is simply loaded from disk to run the predictions.
 
 # Prerequisites:
 
